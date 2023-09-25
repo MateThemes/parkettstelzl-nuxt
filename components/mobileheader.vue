@@ -1,47 +1,44 @@
 <template>
-    <header class="tm-header-mobile uk-hidden@m">
-        <div uk-sticky cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
-             <div class="uk-navbar-container">
-                 <div class="uk-container uk-container-expand">
-                    <nav class="uk-navbar" data-uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
-                        <div class="uk-navbar-left">
-                            <a data-uk-toggle href="#tm-dialog-mobile" class="uk-navbar-toggle uk-navbar-toggle-animate">
-                                <div data-uk-navbar-toggle-icon></div>
-                            </a>
-                        </div>
-                        <div class="uk-navbar-center">
-                            <a href="https://parkettstelzloc:8890" aria-label="Back to home" class="uk-logo uk-navbar-item">
-                                <img alt="Parkett Stelzl - Parkett- und Bodenleger aus München" loading="eager" width="160" height="44.5" src="https://parkettstelzloc:8890/themes/matethemes-parkettstelzlnew/assets/images/artparkett-logo.svg">
-                            </a>
-                        </div>
-                        <div class="uk-navbar-right">
-                            <div class="uk-navbar-item">
-                                <div class="uk-visible@s uk-grid tm-grid-expand uk-grid-column-small uk-grid-row-collapse" data-uk-grid>
-                                    <div class="uk-grid-item-match uk-flex-middle uk-width-expand uk-visible@s">
-                                        <div class="uk-panel uk-width-1-1">
-                                            <div class="uk-visible@s">
-                                                <ul class="uk-margin-remove-bottom uk-subnav">
-                                                    <li class="el-item ">
-                                                        <a class="el-link" href="#" uk-scroll>Login</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="uk-width-auto uk-visible@s">
-                                        <div class="uk-margin uk-visible@s">
-                                            <a class="el-content uk-button uk-button-primary uk-button-small" href="#" data-uk-scroll>Register</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+  <header class="tm-header-mobile uk-hidden@m">
+    <div data-uk-sticky cls-active="uk-navbar-sticky" sel-target=".uk-navbar-container">
+      <div class="uk-navbar-container">
+        <div class="uk-container uk-container-expand">
+          <nav class="uk-navbar" data-uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
+            <div class="uk-navbar-left">
+              <a data-uk-toggle href="#tm-dialog-mobile" class="uk-navbar-toggle uk-navbar-toggle-animate">
+                <div data-uk-navbar-toggle-icon></div>
+              </a>
             </div>
+            <div class="uk-navbar-center">
+              <NuxtLink to="/" class="uk-logo uk-navbar-item " aria-label="Back to home">
+                <img alt="Parkett Stelzl - Parkett- und Bodenleger aus München" loading="eager" width="160" height="44.5" src="https://parkettstelzloc:8890/themes/matethemes-parkettstelzlnew/assets/images/artparkett-logo.svg">
+              </NuxtLink>
+            </div>
+            <div class="uk-navbar-right">
+              <div class="uk-navbar-item">
+                <div class="uk-visible@s uk-grid tm-grid-expand uk-grid-column-small uk-grid-row-collapse" data-uk-grid>
+                  <div class="uk-grid-item-match uk-flex-middle uk-width-expand uk-visible@s">
+                    <div class="uk-panel uk-width-1-1">
+                      <div class="uk-visible@s">
+                        <ul class="uk-margin-remove-bottom uk-subnav">
+                          <li class="el-item">
+                            <a class="el-link" href="#">
+                              <span data-uk-icon="icon: phone"></span>089 744 95 130
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
+      </div>
+    </div>
 
-            <div id="tm-dialog-mobile" class="uk-dropbar uk-dropbar-top" uk-drop="{&quot;clsDrop&quot;:&quot;uk-dropbar&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;target-y&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;mode&quot;:&quot;click&quot;,&quot;target-x&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;stretch&quot;:true,&quot;bgScroll&quot;:&quot;false&quot;,&quot;animation&quot;:&quot;reveal-top&quot;,&quot;animateOut&quot;:true,&quot;duration&quot;:300,&quot;toggle&quot;:&quot;false&quot;}">
+    <div id="tm-dialog-mobile" class="uk-dropbar uk-dropbar-top" data-uk-drop="{&quot;clsDrop&quot;:&quot;uk-dropbar&quot;,&quot;flip&quot;:&quot;false&quot;,&quot;container&quot;:&quot;.tm-header-mobile&quot;,&quot;target-y&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;mode&quot;:&quot;click&quot;,&quot;target-x&quot;:&quot;.tm-header-mobile .uk-navbar-container&quot;,&quot;stretch&quot;:true,&quot;bgScroll&quot;:&quot;false&quot;,&quot;animation&quot;:&quot;reveal-top&quot;,&quot;animateOut&quot;:true,&quot;duration&quot;:300,&quot;toggle&quot;:&quot;false&quot;}">
             <div class="tm-height-min-1-1 uk-flex uk-flex-column">
                 <div class="uk-margin-auto-bottom">
                     <div class="uk-grid uk-child-width-1-1">
@@ -109,10 +106,10 @@
                                         <div class="uk-text-center">
                                             <ul class="uk-margin-remove-bottom uk-subnav  uk-subnav-divider uk-flex-center" data-uk-margin>
                                                 <li class="el-item ">
-                                                    <a class="el-link" href="#" data-uk-scroll>Contact Us</a>
+                                                    <a class="el-link" href="#">Contact Us</a>
                                                 </li>
                                                 <li class="el-item">
-                                                    <NuxtLink to="/impressum" class="el-link" @click="$emit('closeNav')">Impressum</NuxtLink>
+                                                    <NuxtLink to="/impressum" class="el-link" data-uk-toggle="#tm-dialog-mobile">Impressum</NuxtLink>
                                                 </li>
                                             </ul>
                                         </div>
