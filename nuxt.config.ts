@@ -3,8 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@samk-dev/nuxt-uikit3',
-    '@nuxtjs/google-fonts',
+    '@samk-dev/nuxt-uikit3'
   ],
   uikit3: {
     css: {

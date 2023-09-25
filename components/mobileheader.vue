@@ -6,7 +6,7 @@
                     <nav class="uk-navbar" data-uk-navbar="{&quot;container&quot;:&quot;.tm-header-mobile &gt; [uk-sticky]&quot;}">
                         <div class="uk-navbar-left">
                             <a data-uk-toggle href="#tm-dialog-mobile" class="uk-navbar-toggle uk-navbar-toggle-animate">
-                                <div uk-navbar-toggle-icon></div>
+                                <div data-uk-navbar-toggle-icon></div>
                             </a>
                         </div>
                         <div class="uk-navbar-center">
@@ -47,7 +47,7 @@
                     <div class="uk-grid uk-child-width-1-1">
                         <div>
                             <div class="uk-panel">
-                                <ul class="uk-nav uk-nav-default uk-nav-divider uk-nav-accordion" uk-nav="targets: &gt; .js-accordion">
+                                <ul class="uk-nav uk-nav-default uk-nav-divider uk-nav-accordion" data-uk-nav="targets: &gt; .js-accordion">
                                     <li class="uk-active">
                                         <a href="https://parkettstelzloc:8890">Home</a>
                                     </li>
@@ -112,7 +112,7 @@
                                                     <a class="el-link" href="#" data-uk-scroll>Contact Us</a>
                                                 </li>
                                                 <li class="el-item">
-                                                    <a class="el-link" href="https://parkettstelzloc:8890/impressum">Impressum</a>
+                                                    <NuxtLink to="/impressum" class="el-link" @click="$emit('closeNav')">Impressum</NuxtLink>
                                                 </li>
                                             </ul>
                                         </div>

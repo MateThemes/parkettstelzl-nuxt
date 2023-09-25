@@ -6,5 +6,5 @@ useSeoMeta({
 </script>
 
 <template>
-    <p>test</p>
+    <p>test  Impressum</p>
 </template>
