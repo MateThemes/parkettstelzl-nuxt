@@ -1,5 +1,14 @@
+<script setup>
+useHead({
+  titleTemplate: '%s - Parkett Stelzl'
+})
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <div>
+      <NuxtLoadingIndicator />
+      <NuxtPage />
+    </div>
+  </NuxtLayout>
 </template>
