@@ -1,10 +1,20 @@
-<script setup>
+<script setup lang="ts">
+const title = ref('AGB')
+
 useSeoMeta({
-    title: 'AGB',
-    description: 'This is the about page',
+    title,
+    description: 'AGB page',
 })
 </script>
 
 <template>
-    <h1>AGB</h1>
+  <div class="uk-section uk-section-default uk-section-large">
+    <div class="uk-container">
+      <div class="uk-grid-margin" data-uk-grid>
+        <div class="uk-flex-auto uk-width-1-1@m">
+          <h1 class="uk-text-center">{{ title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
