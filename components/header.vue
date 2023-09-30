@@ -4,7 +4,7 @@
             <div class="tm-headerbar-default tm-headerbar tm-headerbar-top">
                 <div class="uk-container uk-container-large uk-flex uk-flex-middle">
                     <NuxtLink to="/">
-                        <img src="https://parkettstelzloc:8890/themes/matethemes-parkettstelzlnew/assets/images/artparkett-logo.svg" alt="Parkett Stelzl - Parkett- und Bodenleger aus München" width="220" height="61" data-uk-img>
+                        <img src="/img/artparkett-logo.svg" alt="Parkett Stelzl - Parkett- und Bodenleger aus München" width="220" height="61" data-uk-img>
                     </NuxtLink>
                     <div class="uk-margin-auto-left">
                         <div class="uk-grid-medium uk-child-width-auto uk-flex-middle" data-uk-grid>

@@ -11,7 +11,7 @@
             </div>
             <div class="uk-navbar-center">
               <NuxtLink to="/" class="uk-logo uk-navbar-item " aria-label="Back to home">
-                <img alt="Parkett Stelzl - Parkett- und Bodenleger aus München" loading="eager" width="160" height="44.5" src="https://parkettstelzloc:8890/themes/matethemes-parkettstelzlnew/assets/images/artparkett-logo.svg">
+                <img alt="Parkett Stelzl - Parkett- und Bodenleger aus München" loading="eager" width="160" height="44.5" src="/img/artparkett-logo.svg">
               </NuxtLink>
             </div>
             <div class="uk-navbar-right">
@@ -46,10 +46,10 @@
                             <div class="uk-panel">
                                 <ul class="uk-nav uk-nav-default uk-nav-divider uk-nav-accordion" data-uk-nav="targets: &gt; .js-accordion">
                                     <li class="uk-active">
-                                        <a href="https://parkettstelzloc:8890">Home</a>
+                                      <NuxtLink to="/">Home</NuxtLink>
                                     </li>
                                     <li class="js-accordion uk-parent">
-                                        <a href>Leistungen <span uk-nav-parent-icon></span></a>
+                                        <a href="#">Leistungen <span data-uk-nav-parent-icon></span></a>
                                         <ul class="uk-nav-sub">
                                             <li>
                                                 <a href="#">Fußboden verlegen vom Fachmann</a>
@@ -69,7 +69,7 @@
                                         <a href="https://parkettstelzloc:8890/unsere-ausstellung-in-muenchen-forstenried">Unsere Ausstellung</a>
                                     </li>
                                     <li class="js-accordion uk-parent">
-                                        <a href> Company <span uk-nav-parent-icon></span></a>
+                                        <a href="#"> Company <span data-uk-nav-parent-icon></span></a>
                                         <ul class="uk-nav-sub">
                                             <li class="">
                                                 <a href="https://demo.yootheme.com/wordpress/themes/devstack.light-orange/?page_id=4"> About</a>
@@ -105,12 +105,13 @@
                                     <div class="uk-width-1-1">
                                         <div class="uk-text-center">
                                             <ul class="uk-margin-remove-bottom uk-subnav  uk-subnav-divider uk-flex-center" data-uk-margin>
-                                                <li class="el-item ">
-                                                    <a class="el-link" href="#">Contact Us</a>
-                                                </li>
-                                                <li class="el-item">
-                                                    <NuxtLink to="/impressum" class="el-link" data-uk-toggle="#tm-dialog-mobile">Impressum</NuxtLink>
-                                                </li>
+                                              <li class="el-item">
+                                                <NuxtLink to="/impressum" class="el-link" data-uk-toggle="#tm-dialog-mobile">Impressum</NuxtLink>
+                                              </li>
+                                              <li class="el-item">
+                                                <NuxtLink to="/datenschutz" class="el-link" data-uk-toggle="#tm-dialog-mobile">Datenschutz</NuxtLink>
+                                              </li>
+
                                             </ul>
                                         </div>
                                     </div>
@@ -123,3 +124,5 @@
         </div>
     </header>
 </template>
+<script setup lang="ts">
+</script>
