@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const title = ref('Impressum yeah')
+const title = ref('Impressum')
 
 useSeoMeta({
     title,
