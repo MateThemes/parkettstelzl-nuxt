@@ -13,6 +13,7 @@ useSeoMeta({
 	  <div class="uk-grid-margin" data-uk-grid>
 		<div class="uk-flex-auto uk-width-1-1@m">
 		  <h1 class="uk-text-center">{{ title }}</h1>
+		  <p>Yeah it works now!</p>
 		</div>
 	  </div>
 	</div>
