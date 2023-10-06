@@ -60,7 +60,7 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <a href="https://parkettstelzloc:8890/wir-ueber-uns">Wir über uns</a>
+                                                <NuxtLink to="/wir-ueber-uns">Wir über uns</NuxtLink>
                                             </li>
                                             <li >
                                                 <a href=https://parkettstelzloc:8890/unsere-ausstellung-in-muenchen-forstenried>Ausstellung</a>
