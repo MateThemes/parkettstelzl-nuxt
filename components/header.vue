@@ -39,21 +39,27 @@
                             <div class="uk-navbar-left uk-flex-auto">
                                 <ul class="uk-navbar-nav">
                                     <div class='uk-navbar-center uk-visible@m'>
-                                        <ul class='uk-navbar-nav'>
+                                        <ul class="uk-navbar-nav">
                                             <li>
-                                                <a href='/'>Home</a>
+                                                <NuxtLink to="/">Home</NuxtLink>
                                             </li>
                                             <li>
-                                                <a href='#'>Unsere Leistungen <span uk-navbar-parent-icon></span></a>
-                                                <div class='uk-navbar-dropdown'>
-                                                    <ul class='uk-nav uk-navbar-dropdown-nav'>
-                                                        <li><a href='/fussboden-verlegen-vom-fachmann/'>Fussboden verlegen vom Fachmann</a></li>
-                                                        <li><a href='/parkett-schleifen-und-renovieren/'>Parkett schleifen und renovieren</a></li>
-                                                        <li><a href='/treppenrenovierung/'>Treppenrenovierung</a></li>
+                                                <a href="#">Unsere Leistungen <span data-uk-navbar-parent-icon></span></a>
+                                                <div class="uk-navbar-dropdown" data-uk-toggle>
+                                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                        <li>
+                                                          <NuxtLink to="fussboden-verlegen-vom-fachmann">Fussboden verlegen vom Fachmann</NuxtLink>
+                                                        </li>
+                                                        <li>
+                                                          <NuxtLink to="parkett-schleifen-und-renovieren">Parkett schleifen und renovieren</NuxtLink>
+                                                        </li>
+                                                        <li>
+                                                          <NuxtLink to="/treppenrenovierung">Treppenrenovierung</NuxtLink>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li >
+                                            <li>
                                                 <a href="https://parkettstelzloc:8890/wir-ueber-uns">Wir über uns</a>
                                             </li>
                                             <li >
@@ -62,13 +68,12 @@
                                             <li >
                                                 <a href="https://parkettstelzloc:8890/galerie">Galerie</a>
                                             </li>
-                                            <li><a href='/kontaktieren-sie-uns/'>Kontakt</a></li>
                                         </ul>
                                     </div>
                                 </ul>
                                 <div class="uk-margin-auto-left uk-navbar-item">
                                     <div class="uk-margin-remove-last-child custom">
-                                        <a href="/kontaktieren-sie-uns/" class="uk-button uk-button-primary">Anfrage stellen</a>
+                                      <NuxtLink to="/kontaktieren-sie-uns" class="uk-button uk-button-primary">Anfrage stellen</NuxtLink>
                                     </div>
                                 </div>
                             </div>

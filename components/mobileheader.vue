@@ -46,7 +46,7 @@
                             <div class="uk-panel">
                                 <ul class="uk-nav uk-nav-default uk-nav-divider uk-nav-accordion" data-uk-nav="targets: &gt; .js-accordion">
                                     <li class="uk-active">
-                                      <NuxtLink to="/">Home</NuxtLink>
+                                      <NuxtLink to="/" data-uk-toggle="#tm-dialog-mobile">Home</NuxtLink>
                                     </li>
                                     <li class="js-accordion uk-parent">
                                         <a href="#">Leistungen <span data-uk-nav-parent-icon></span></a>
@@ -80,8 +80,8 @@
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy">
                                                 <a href="https://demo.yootheme.com/wordpress/themes/devstack.light-orange/?page_id=3"> Careers</a>
                                             </li>
-                                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                <a href="https://demo.yootheme.com/wordpress/themes/devstack.light-orange/?page_id=65"> Blog</a>
+                                            <li>
+                                              <NuxtLink to="/kontaktieren-sie-uns">Kontaktieren Sie uns</NuxtLink>
                                             </li>
                                         </ul>
                                     </li>
@@ -97,7 +97,7 @@
                                 <div class="uk-grid tm-grid-expand uk-child-width-1-1 uk-grid-margin">
                                     <div class="uk-width-1-1">
                                         <div class="uk-margin">
-                                            <a class="el-content uk-width-1-1 uk-button uk-button-primary uk-button-large" href="#" data-uk-scroll>Register</a>
+                                          <Nuxtlink to="/kontaktieren-sie-uns" class="el-content uk-width-1-1 uk-button uk-button-primary uk-button-large" data-uk-toggle="#tm-dialog-mobile">Anfrage stellen</Nuxtlink>
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +111,6 @@
                                               <li class="el-item">
                                                 <NuxtLink to="/datenschutz" class="el-link" data-uk-toggle="#tm-dialog-mobile">Datenschutz</NuxtLink>
                                               </li>
-
                                             </ul>
                                         </div>
                                     </div>
